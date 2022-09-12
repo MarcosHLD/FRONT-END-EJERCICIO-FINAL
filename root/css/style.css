@@ -1,0 +1,58 @@
+/* TODO: Clase para ver los bordes de cada caja despues ahy que borrarla */
+
+.borde{ border: 3px #ff0000 solid;}
+* {box-sizing: border-box;}
+
+/* TODO: Clases Generales */
+
+body{ font-family: 'Be Vietnam Pro', 'Times New Roman', sans-serif;
+    color: #242E52;
+}
+
+.flex{display: flex;
+    flex-direction: ;
+}
+.distribuida{
+    justify-content: space-around;
+}
+nav{
+    text-decoration: none;
+}
+.centradah{
+    align-items: center;
+}
+.sinLinea{
+    text-decoration: none;
+    color: #242E52;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 176.1%;
+    
+}
+/* TODO: Estilos del Header */
+
+header{ height: 15vh; 
+
+}
+    
+header nav {
+    width: 50%;
+}
+
+header a:hover{
+opacity: 60%;
+}
+
+.boton{
+    background-color: #8B48Bf;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    height: 50%;
+    width: 9%;
+
+}
+
+
