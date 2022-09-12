@@ -47,12 +47,18 @@ opacity: 60%;
 .boton{
     background-color: #8B48Bf;
     border-radius: 50px;
+    height: 50%;
+    width: 9%;
+    border: none;
+
+
+}
+
+button a{
     font-weight: 500;
     font-size: 14px;
     color: #ffffff;
-    height: 50%;
-    width: 9%;
-
-}
+    text-decoration: none;
+    }
 
 
