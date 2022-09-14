@@ -1,64 +1,96 @@
-/* TODO: Clase para ver los bordes de cada caja despues ahy que borrarla */
+/* Victor como estas, el ancho de mi Pantalla es de 1920 te agradeceria que lo tengas en cuenta. Gracias Saludos */
 
-.borde{ border: 3px #ff0000 solid;}
-* {box-sizing: border-box;}
-
-/* TODO: Clases Generales */
-
-body{ font-family: 'Be Vietnam Pro', 'Times New Roman', sans-serif;
-    color: #242E52;
+/* Clase para ver los bordes de cada caja despues hay que borrarla */
+.borde {
+  border: 3px #ff0000 solid;
 }
-
-.flex{display: flex;
-    flex-direction: ;
+* {
+  box-sizing: border-box;}
+/* Clases Generales */
+*{
+  margin: 0%;
+  padding: 0%;
 }
-.distribuida{
-    justify-content: space-around;
-}
-nav{
-    text-decoration: none;
-}
-.centradah{
-    align-items: center;
-}
-.sinLinea{
-    text-decoration: none;
-    color: #242E52;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 176.1%;
-    
-}
-/* TODO: Estilos del Header */
-
-header{ height: 15vh; 
-
-}
-    
+body {
+  font-family: "Be Vietnam Pro", "Times New Roman", sans-serif;
+  color: #242e52;}
+.flex {
+  display: flex;
+  }
+.distribuida {
+  justify-content: space-around;}
+nav {
+  text-decoration: none;}
+.centradah {
+  align-items: center;}
+.sinLinea {
+  text-decoration: none;
+  color: #242e52;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 176.1%;}
+/* Estilos del Header */
+header {
+  height: 15vh;}
 header nav {
-    width: 50%;
+  width: 50%;}
+header a:hover {
+  opacity: 60%;}
+.boton {
+  background-color: #8b48bf;
+  border-radius: 50px;
+  height: 44px;
+  width: 135px;
+  border: none;
+  }
+.sombra{box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);}
+button a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
 }
+/* Estilos de la primer parte del main */
 
-header a:hover{
-opacity: 60%;
+.primera{
+  padding: 5% 0% 7% 0%;
 }
-
-.boton{
-    background-color: #8B48Bf;
-    border-radius: 50px;
-    height: 50%;
-    width: 9%;
-    border: none;
-
-
+.columna {flex-direction: column;
 }
-
-button a{
+h1{
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: -0.035em;
+    line-height: 66px;
+}
+.izquierdo {
+    width: 40vw;
+    height: 70vh;
+        
+}
+.derecho {
+  height: 80vh;
+  
+}
+.bajadah1 {
     font-weight: 500;
-    font-size: 14px;
-    color: #ffffff;
-    text-decoration: none;
-    }
-
-
+    font-size: 17px;
+    line-height: 160%;
+    padding-right: 25%;
+}
+/* Estilos de la segunda parte del main */
+h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+.bajadah2{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  padding-right: 35%;
+}
+.diferencias{
+  width: 50vw;
+}
