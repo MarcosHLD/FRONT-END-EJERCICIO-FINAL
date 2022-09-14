@@ -80,6 +80,10 @@ h1{
     padding-right: 25%;
 }
 /* Estilos de la segunda parte del main */
+
+.alineado{
+  padding: 0% 5% 0% 5%;
+}
 h2{
   font-weight: 700;
   font-size: 36px;
@@ -89,7 +93,7 @@ h2{
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
-  padding-right: 35%;
+  padding: 8% 19% 0% 0%;
 }
 .diferencias{
   width: 50vw;
