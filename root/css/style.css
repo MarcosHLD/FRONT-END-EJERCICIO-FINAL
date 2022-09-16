@@ -1,19 +1,25 @@
-/* Victor como estas, el ancho de mi Pantalla es de 1920 te agradeceria que lo tengas en cuenta. Gracias Saludos */
+/* Victor como estas, el ancho de mi Pantalla es de 1920 te agradeceria que lo tengas en cuenta.
+A raiz de eso modifique en un 33% las medidas de los botones, tipografias y otras cosas para que estéticamente se vieran acordes. Gracias Saludos */
 
 /* Clase para ver los bordes de cada caja despues hay que borrarla */
 .borde {
   border: 3px #ff0000 solid;
 }
 * {
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
 /* Clases Generales */
 *{
   margin: 0%;
   padding: 0%;
 }
+.ancho{
+  width: 100vw;
+}
+  
 body {
   font-family: "Be Vietnam Pro", "Times New Roman", sans-serif;
-  color: #242e52;}
+  color: #242E52;}
 .flex {
   display: flex;
   }
@@ -28,73 +34,473 @@ nav {
   color: #242e52;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 1.09em;
   line-height: 176.1%;}
 /* Estilos del Header */
 header {
   height: 15vh;}
+header div{
+  width: 100%;
+}
 header nav {
-  width: 50%;}
+  width: 50%;
+  padding: 0% 5%;
+  }
 header a:hover {
   opacity: 60%;}
-.boton {
+.boton{
   background-color: #8b48bf;
   border-radius: 50px;
-  height: 44px;
-  width: 135px;
-  border: none;
-  }
-.sombra{box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);}
-button a {
+  height: 58px;
+  width: 180px;
+  border: #8b48bf;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.09em;
   color: #ffffff;
   text-decoration: none;
+  }
+.hmenu{
+  display: none;
 }
+.sombra{box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);}
 /* Estilos de la primer parte del main */
-
+main{
+  padding-bottom: 20vh;
+}
 .primera{
   padding: 5% 0% 7% 0%;
 }
 .columna {flex-direction: column;
 }
+
 h1{
     font-weight: 700;
-    font-size: 58px;
-    letter-spacing: -0.035em;
-    line-height: 66px;
+    font-size: 4.82rem;
+    letter-spacing: -0.085em;
+    line-height: 114%;
+    color: #232c50;
 }
 .izquierdo {
-    width: 40vw;
-    height: 70vh;
+    width: 36vw;
+    height: 60vh;
         
 }
 .derecho {
-  height: 80vh;
+  height: 78vh;
   
 }
 .bajadah1 {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.4rem;
+    letter-spacing: -0.048em;
     line-height: 160%;
-    padding-right: 25%;
-}
+    padding-right: 34%;
+    color: #000000;
+    
+  }
 /* Estilos de la segunda parte del main */
 
+.izquierdo2{
+  width: 90%;
+}
 .alineado{
   padding: 0% 5% 0% 5%;
 }
 h2{
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 3rem;
+  line-height: 116%;
+  color: #232851;
 }
 .bajadah2{
   font-weight: 500;
-  font-size: 16px;
-  line-height: 25px;
-  padding: 8% 19% 0% 0%;
+  font-size: 1.33rem;
+  line-height: 156%;
+  padding: 7% 35% 0% 0%;
+  color: #000000;
 }
-.diferencias{
-  width: 50vw;
+.numero{
+  background-color: #8B48BF;
+  border-radius: 30px;
+  width: 113px;
+  height: 58px;
+  font-size: 1.33em;
+  font-weight: 500;
+  
+}
+.centro{
+  justify-content: center;
+  align-items: center;
+}
+article p{
+  color: #ffffff;
+  font-size: 1.33em;
+  font-weight: 700;
+}
+h4{
+  font-weight: 700;
+  font-size: 1.33em;
+  line-height: 116%;
+  letter-spacing: -0.015em;
+  color: #323851;
+  padding-top: 11px;
+}
+.textoDif{
+  font-weight: 500;
+  font-size: 1.34em;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #B3B2B7;
+  ;
+  padding-top: 25px;
+}
+article div{
+  padding: 0% 3.5% 5% 4%;
+  width: 67%;
+}
+/* Nota: Comienza estilos del Aside */
+h3{
+  font-weight: 700;
+  font-size: 3.25em;
+  letter-spacing: -0.01em;
+  color: #242E53;
+  padding-bottom: 5%;
+    }
+.avatars{
+  align-items: center;
+  width: 29%;
+  
+  
+}
+aside section{
+  width: 95vw;
+  background-color: #fafafa;
+  height: 29vh;
+  
+}
+h5{
+  font-weight: 700;
+  font-size: 1.33em;
+  letter-spacing: -0.01em;
+  color: #3F4868;
+  ;
+  padding: 0% 0% 7%;
+}
+
+.comentario{
+  font-weight: 600;
+  font-size: 1.33em;
+  line-height: 156%;
+  letter-spacing: -0.01em;
+  color: #B9B9C1; 
+  padding-bottom: 0%;
+  text-align: center;
+}
+.rostro{
+  width: 91px;
+  height: 91px;
+  position: relative;
+  bottom: 50px;
+}
+
+.opacidad{
+  margin: 3% 0% 10%;
+}
+/* VIC: Entiendo que el efecto del Hover sobre el boton se mantiene en ambos tamaños de pantalla de lo contrario si para la version de 480 no debe estar aqui habria que anular el efecto hover. */
+.opacidad:hover{
+  background-color: rgba(139, 72, 191, 0.7);
+}
+
+h6{
+  font-weight: 700;
+  font-size: 3.25em;
+  line-height: 120%;
+  letter-spacing: -0.005em;
+  color: #ffffff; 
+  width: 70%;
+}
+
+.botonBlanco{
+  background-color: #ffffff;
+  border-radius: 50px;
+  font-size: 1.09em;
+  font-weight: 500;
+  height: 58px;
+  width: 180px;
+  border: none;
+  color: #8B48BF;
+}
+
+.texto{
+  color: #8B48BF;
+}
+.alto{
+  height: 36vh;
+  background-color: #8B48BF;
+}
+
+.separada{
+  justify-content: space-between;
+}
+
+.margen{
+  margin: 0% 10% 0% 5.5%;
+}
+/* TODO: Aca empezamos con el estilo del Footer */
+
+footer{
+  background-color: #1E1E26;
+  height: 38vh;
+}
+
+.margenFooter{
+  width: 90%;
+}
+
+.ultimoDiv{
+  height: 100%;
+}
+
+.footer1{
+  height: 71%;
+}
+
+.margenRedes{
+  margin: 0% 9% 0% 0%;
+}
+
+.navfoot1{
+  height: 100%;
+}
+
+.margenNavs{
+  width: 40%;
+  height: 100%;
+}
+.menuFoot{
+  font-weight: 400;
+  font-size: 1.33em;
+  line-height: 143%;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10% 0%;
+
+}
+
+
+.cuarto{
+  color: #1E1E26
+}
+.alto1{
+  height: 50%;;
+}
+
+.formulario{
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 58px;
+  width: 278px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.09em;
+  color: #A0A0A0;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.buttonGo{
+  background-color: #8b48bf;
+  border-radius: 50px;
+  height: 58px;
+  width: 94px;
+  border: none;
+  font-weight: 500;
+  font-size: 1.09em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.margen2{
+  width: 19%;
+  margin: 0% 5.2% 0% 5%;
+}
+
+.alizq{
+  justify-content: flex-end;
+}
+
+.alizq2{
+  align-items: flex-end;
+}
+
+.copy{
+  font-weight: 500;
+  font-size: 1.04em;
+  color: #8C8C94;
+
+}
+
+/* NOTA: Aca empieza Responsive a punto de quiebre 480px */
+
+@media (max-width: 480px){
+  
+  /* Nota: Header en responsive a punto de quiebre de 480 */
+  header nav{
+    display: none;
+  }
+  header button{
+    display: none;
+  }
+  header{
+    justify-content: center;
+  }
+  header div{
+    width: 85%;
+
+  }
+  .hmenu{
+    display: block;
+    font-size: 250%;
+  }
+  .distribuida{
+    justify-content: space-between;
+  }
+
+  /* Nota: Primera Parte del Main en Responsive  */
+
+  .primera{
+    flex-direction: column-reverse;
+    padding: 0% 0% 0% 0%;
+    
+  }
+  .boton{
+    height: 43px;
+    width: 134px;
+    font-size: .82em;
+    font-family: 'Be Vietnam Pro', 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .imagcel{
+    width: 100%;
+    height: 60%;
+  }
+  .derecho {
+    height: 60%;
+  }
+  .izquierdo{
+    align-items: center;
+    width: 95%;
+    height: 48vh;
+    margin: 35% 0% 35% 0%;
+    
+  }
+  h1{
+    text-align: center;
+    font-size: 3.72em;
+  }
+  .bajadah1{
+    text-align: center;
+    padding: 0% 11%;
+    font-size: 1.05em;
+  }
+  /* TODO: Segunda Parte del Main en Responsive */
+  .colcel{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+  }
+  .izquierdo2{
+    width: 100%;
+    
+  }
+  .alineado{
+    padding: 0% 0% 10% 0%;
+    
+  }
+  h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 116%;
+    color: #232851;
+  }
+  .bajadah2{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 151%;
+    padding: 9% 9.8%;
+    color: #000000;
+  }
+    .numero{
+    width: 85px;
+    height: 44px;
+    font-size: 0.82em;
+    font-weight: 500;
+    position: relative;
+    left: 35px;
+      
+  }
+  .ancho1{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  h4{
+    background-color: rgba(139, 72, 191, .3);
+    font-size: 1em;
+    padding: 13px 50px 13px 10px;
+    width: 100%;
+
+  }
+  .textoDif{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #B3B2B7;
+    text-align: left;
+    padding: 25px 25px;
+    position: relative;
+    right: 50px;
+  }
+  /* Nota: Empieza el Aside responsive */
+  h3{
+  font-size: 2.44em;
+  padding-bottom: 30%;
+  }
+  .fantom{
+    display: none;
+  }
+  .person{
+    justify-content: center;
+    margin: 0% 0% 8% 0%;
+  }
+  .comentario{
+    font-size: 1em;
+    padding: 0% 35%;
+  }
+  .margen{
+    margin: 0% 0% 0% 0%;
+  }
+  h6{
+  font-size: 2.44em;
+  width: 100%;
+  padding: 15% 15%;
+  
+  }
+  .altocel{
+    height: 100%;
+  }
+  .botoncel{
+    position: relative;
+    bottom: 36px;
+    
+  }
+  .botonBlanco{
+  font-size: .82em;
+  font-weight: 500;
+  height: 44px;
+  width: 135px;
+  }
 }
