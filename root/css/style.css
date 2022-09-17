@@ -63,6 +63,7 @@ header a:hover {
   display: none;
 }
 .sombra{box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);}
+.reflejo{box-shadow: 0px 4px 7px rgba(252, 252, 252, 0.25);}
 /* Estilos de la primer parte del main */
 main{
   padding-bottom: 20vh;
@@ -262,7 +263,7 @@ footer{
 }
 
 .footer1{
-  height: 71%;
+  height: 70%;
 }
 
 .margenRedes{
@@ -292,7 +293,7 @@ footer{
   color: #1E1E26
 }
 .alto1{
-  height: 50%;;
+  height: 50%;
 }
 
 .formulario{
@@ -306,6 +307,7 @@ footer{
   color: #A0A0A0;
   text-decoration: none;
   margin-right: 5%;
+  
 }
 
 .buttonGo{
@@ -449,7 +451,7 @@ footer{
   h4{
     background-color: rgba(139, 72, 191, .3);
     font-size: 1em;
-    padding: 13px 50px 13px 10px;
+    padding: 13px 45px 13px 10px;
     width: 100%;
 
   }
@@ -480,6 +482,9 @@ footer{
     font-size: 1em;
     padding: 0% 35%;
   }
+  .anchocel{
+    width: 100vw;
+  }
   .margen{
     margin: 0% 0% 0% 0%;
   }
@@ -502,5 +507,72 @@ footer{
   font-weight: 500;
   height: 44px;
   width: 135px;
+  }
+  /* Nota: Empieza Footer responsive */
+
+  .footerColum{
+    flex-direction: column-reverse;
+  }
+  .margenFooter{
+    width: 100vw;
+  }
+  .altfoot{
+    height: 70vh;
+  }
+  .margen2{
+    width: 100%;
+    margin: 10% 0% 0% 0%;
+
+  }
+  
+  .alizq2{
+    align-items: center;
+  }
+
+  .alto1{
+    height: 20%;
+  }
+
+  .menuFoot{
+    font-size: 1em;
+    margin: 15% 0%;
+  
+  }
+
+  .formulario{
+    height: 44px;
+    width: 330px;
+    font-size: 0.82em;
+  }
+  .buttonGo{
+    height: 44px;
+    width: 74px;
+    font-size: 0.82em;
+    text-decoration: none;
+  }
+  .copy{
+    position: relative;
+    top: 380px;
+    right: 0px;
+  }
+  .margenNavs{
+    width: 60%;
+    height: 20%;
+    margin: 0% 0%;
+  }
+  .margenRedes{
+    margin: 10% 0% 0% 0%;
+  }
+
+  .districel{
+    justify-content: space-around;
+    width: 70vw;
+  }
+  .logocel{
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    padding: 20% 0% 15% 0%;
   }
 }
