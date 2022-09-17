@@ -1,5 +1,13 @@
-/* Victor como estas, el ancho de mi Pantalla es de 1920 te agradeceria que lo tengas en cuenta.
-A raiz de eso modifique en un 33% las medidas de los botones, tipografias y otras cosas para que estéticamente se vieran acordes. Gracias Saludos */
+/* Victor como estas, el ancho de mi Pantalla es de 1920 te agradeceria
+que lo tengas en cuenta. A raiz de eso modifique en un 33% las medidas de los
+botones, tipografias y otras cosas para que estéticamente se vieran acordes.
+Luego en el Responsive con pantalla a 480 los volvi a agrandar.
+Es la primera vez que hago esta y esta muy bueno te agradezco los conocimientos que
+nos brindaste. Podria mejorar muchisimo mas, hay selectores que no estan trabajando 
+y varias cosas por pulir cuando inspeccionava pero no tengo mas tiempo y quiero
+hacer la entrega con tiempo.
+
+Muchas Gracias Saludos */
 
 /* Clase para ver los bordes de cada caja despues hay que borrarla */
 .borde {
@@ -9,46 +17,53 @@ A raiz de eso modifique en un 33% las medidas de los botones, tipografias y otra
   box-sizing: border-box;
 }
 /* Clases Generales */
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
-.ancho{
+.ancho {
   width: 100vw;
 }
-  
+
 body {
   font-family: "Be Vietnam Pro", "Times New Roman", sans-serif;
-  color: #242E52;}
+  color: #242e52;
+}
 .flex {
   display: flex;
-  }
+}
 .distribuida {
-  justify-content: space-around;}
+  justify-content: space-around;
+}
 nav {
-  text-decoration: none;}
+  text-decoration: none;
+}
 .centradah {
-  align-items: center;}
+  align-items: center;
+}
 .sinLinea {
   text-decoration: none;
   color: #242e52;
   font-style: normal;
   font-weight: 500;
   font-size: 1.09em;
-  line-height: 176.1%;}
+  line-height: 176.1%;
+}
 /* Estilos del Header */
 header {
-  height: 15vh;}
-header div{
+  height: 15vh;
+}
+header div {
   width: 100%;
 }
 header nav {
   width: 50%;
   padding: 0% 5%;
-  }
+}
 header a:hover {
-  opacity: 60%;}
-.boton{
+  opacity: 60%;
+}
+.boton {
   background-color: #8b48bf;
   border-radius: 50px;
   height: 58px;
@@ -58,87 +73,88 @@ header a:hover {
   font-size: 1.09em;
   color: #ffffff;
   text-decoration: none;
-  }
-.hmenu{
+}
+.hmenu {
   display: none;
 }
-.sombra{box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);}
-.reflejo{box-shadow: 0px 4px 7px rgba(252, 252, 252, 0.25);}
+.sombra {
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.reflejo {
+  box-shadow: 0px 4px 7px rgba(252, 252, 252, 0.25);
+}
 /* Estilos de la primer parte del main */
-main{
+main {
   padding-bottom: 20vh;
 }
-.primera{
+.primera {
   padding: 5% 0% 7% 0%;
 }
-.columna {flex-direction: column;
+.columna {
+  flex-direction: column;
 }
 
-h1{
-    font-weight: 700;
-    font-size: 4.82rem;
-    letter-spacing: -0.085em;
-    line-height: 114%;
-    color: #232c50;
+h1 {
+  font-weight: 700;
+  font-size: 4.82rem;
+  letter-spacing: -0.085em;
+  line-height: 114%;
+  color: #232c50;
 }
 .izquierdo {
-    width: 36vw;
-    height: 60vh;
-        
+  width: 36vw;
+  height: 60vh;
 }
 .derecho {
   height: 78vh;
-  
 }
 .bajadah1 {
-    font-weight: 500;
-    font-size: 1.4rem;
-    letter-spacing: -0.048em;
-    line-height: 160%;
-    padding-right: 34%;
-    color: #000000;
-    
-  }
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: -0.048em;
+  line-height: 160%;
+  padding-right: 34%;
+  color: #000000;
+}
 /* Estilos de la segunda parte del main */
 
-.izquierdo2{
+.izquierdo2 {
   width: 90%;
 }
-.alineado{
+.alineado {
   padding: 0% 5% 0% 5%;
 }
-h2{
+h2 {
   font-weight: 700;
   font-size: 3rem;
   line-height: 116%;
   color: #232851;
 }
-.bajadah2{
+.bajadah2 {
   font-weight: 500;
   font-size: 1.33rem;
   line-height: 156%;
   padding: 7% 35% 0% 0%;
   color: #000000;
 }
-.numero{
-  background-color: #8B48BF;
+.numero {
+  background-color: #8b48bf;
   border-radius: 30px;
   width: 113px;
   height: 58px;
   font-size: 1.33em;
   font-weight: 500;
-  
 }
-.centro{
+.centro {
   justify-content: center;
   align-items: center;
 }
-article p{
+article p {
   color: #ffffff;
   font-size: 1.33em;
   font-weight: 700;
 }
-h4{
+h4 {
   font-weight: 700;
   font-size: 1.33em;
   line-height: 116%;
@@ -146,82 +162,77 @@ h4{
   color: #323851;
   padding-top: 11px;
 }
-.textoDif{
+.textoDif {
   font-weight: 500;
   font-size: 1.34em;
   line-height: 155%;
   letter-spacing: 0.01em;
-  color: #B3B2B7;
-  ;
+  color: #b3b2b7;
   padding-top: 25px;
 }
-article div{
+article div {
   padding: 0% 3.5% 5% 4%;
   width: 67%;
 }
 /* Nota: Comienza estilos del Aside */
-h3{
+h3 {
   font-weight: 700;
   font-size: 3.25em;
   letter-spacing: -0.01em;
-  color: #242E53;
+  color: #242e53;
   padding-bottom: 5%;
-    }
-.avatars{
+}
+.avatars {
   align-items: center;
   width: 29%;
-  
-  
 }
-aside section{
+aside section {
   width: 95vw;
   background-color: #fafafa;
   height: 29vh;
-  
 }
-h5{
+h5 {
   font-weight: 700;
   font-size: 1.33em;
   letter-spacing: -0.01em;
-  color: #3F4868;
-  ;
+  color: #3f4868;
   padding: 0% 0% 7%;
 }
 
-.comentario{
+.comentario {
   font-weight: 600;
   font-size: 1.33em;
   line-height: 156%;
   letter-spacing: -0.01em;
-  color: #B9B9C1; 
+  color: #b9b9c1;
   padding-bottom: 0%;
   text-align: center;
 }
-.rostro{
+.rostro {
   width: 91px;
   height: 91px;
   position: relative;
   bottom: 50px;
 }
 
-.opacidad{
+.opacidad {
   margin: 3% 0% 10%;
 }
 /* VIC: Entiendo que el efecto del Hover sobre el boton se mantiene en ambos tamaños de pantalla de lo contrario si para la version de 480 no debe estar aqui habria que anular el efecto hover. */
-.opacidad:hover{
+.opacidad:hover {
   background-color: rgba(139, 72, 191, 0.7);
 }
 
-h6{
+h6 {
   font-weight: 700;
   font-size: 3.25em;
   line-height: 120%;
   letter-spacing: -0.005em;
-  color: #ffffff; 
+  color: #ffffff;
   width: 70%;
 }
 
-.botonBlanco{
+.botonBlanco {
   background-color: #ffffff;
   border-radius: 50px;
   font-size: 1.09em;
@@ -229,74 +240,72 @@ h6{
   height: 58px;
   width: 180px;
   border: none;
-  color: #8B48BF;
+  color: #8b48bf;
 }
 
-.texto{
-  color: #8B48BF;
+.texto {
+  color: #8b48bf;
 }
-.alto{
+.alto {
   height: 36vh;
-  background-color: #8B48BF;
+  background-color: #8b48bf;
 }
 
-.separada{
+.separada {
   justify-content: space-between;
 }
 
-.margen{
+.margen {
   margin: 0% 10% 0% 5.5%;
 }
 /* TODO: Aca empezamos con el estilo del Footer */
 
-footer{
-  background-color: #1E1E26;
+footer {
+  background-color: #1e1e26;
   height: 38vh;
 }
 
-.margenFooter{
+.margenFooter {
   width: 90%;
 }
 
-.ultimoDiv{
+.ultimoDiv {
   height: 100%;
 }
 
-.footer1{
+.footer1 {
   height: 70%;
 }
 
-.margenRedes{
+.margenRedes {
   margin: 0% 9% 0% 0%;
 }
 
-.navfoot1{
+.navfoot1 {
   height: 100%;
 }
 
-.margenNavs{
+.margenNavs {
   width: 40%;
   height: 100%;
 }
-.menuFoot{
+.menuFoot {
   font-weight: 400;
   font-size: 1.33em;
   line-height: 143%;
   color: #ffffff;
   text-decoration: none;
   margin: 10% 0%;
-
 }
 
-
-.cuarto{
-  color: #1E1E26
+.cuarto {
+  color: #1e1e26;
 }
-.alto1{
+.alto1 {
   height: 50%;
 }
 
-.formulario{
+.formulario {
   background-color: #ffffff;
   border-radius: 50px;
   height: 58px;
@@ -304,13 +313,12 @@ footer{
   border: none;
   font-weight: 600;
   font-size: 1.09em;
-  color: #A0A0A0;
+  color: #a0a0a0;
   text-decoration: none;
   margin-right: 5%;
-  
 }
 
-.buttonGo{
+.buttonGo {
   background-color: #8b48bf;
   border-radius: 50px;
   height: 58px;
@@ -322,257 +330,243 @@ footer{
   text-decoration: none;
 }
 
-.margen2{
+.margen2 {
   width: 19%;
   margin: 0% 5.2% 0% 5%;
 }
 
-.alizq{
+.alizq {
   justify-content: flex-end;
 }
 
-.alizq2{
+.alizq2 {
   align-items: flex-end;
 }
 
-.copy{
+.copy {
   font-weight: 500;
   font-size: 1.04em;
-  color: #8C8C94;
-
+  color: #8c8c94;
 }
 
 /* NOTA: Aca empieza Responsive a punto de quiebre 480px */
 
-@media (max-width: 480px){
-  
+@media (max-width: 480px) {
   /* Nota: Header en responsive a punto de quiebre de 480 */
-  header nav{
+  header nav {
     display: none;
   }
-  header button{
+  header button {
     display: none;
   }
-  header{
+  header {
     justify-content: center;
   }
-  header div{
+  header div {
     width: 85%;
-
   }
-  .hmenu{
+  .hmenu {
     display: block;
     font-size: 250%;
   }
-  .distribuida{
+  .distribuida {
     justify-content: space-between;
   }
 
   /* Nota: Primera Parte del Main en Responsive  */
 
-  .primera{
+  .primera {
     flex-direction: column-reverse;
     padding: 0% 0% 0% 0%;
-    
   }
-  .boton{
+  .boton {
     height: 43px;
     width: 134px;
-    font-size: .82em;
-    font-family: 'Be Vietnam Pro', 'Times New Roman', Times, serif;
+    font-size: 0.82em;
+    font-family: "Be Vietnam Pro", "Times New Roman", Times, serif;
     color: #ffffff;
     text-decoration: none;
   }
-  .imagcel{
+  .imagcel {
     width: 100%;
     height: 60%;
   }
   .derecho {
     height: 60%;
   }
-  .izquierdo{
+  .izquierdo {
     align-items: center;
     width: 95%;
     height: 48vh;
     margin: 35% 0% 35% 0%;
-    
   }
-  h1{
+  h1 {
     text-align: center;
     font-size: 3.72em;
   }
-  .bajadah1{
+  .bajadah1 {
     text-align: center;
     padding: 0% 11%;
     font-size: 1.05em;
   }
   /* TODO: Segunda Parte del Main en Responsive */
-  .colcel{
+  .colcel {
     flex-direction: column;
     text-align: center;
     align-items: center;
-
   }
-  .izquierdo2{
+  .izquierdo2 {
     width: 100%;
-    
   }
-  .alineado{
+  .alineado {
     padding: 0% 0% 10% 0%;
-    
   }
-  h2{
+  h2 {
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 116%;
     color: #232851;
   }
-  .bajadah2{
+  .bajadah2 {
     font-weight: 500;
     font-size: 1rem;
     line-height: 151%;
     padding: 9% 9.8%;
     color: #000000;
   }
-    .numero{
+  .numero {
     width: 85px;
     height: 44px;
     font-size: 0.82em;
     font-weight: 500;
     position: relative;
     left: 35px;
-      
   }
-  .ancho1{
+  .ancho1 {
     width: 100%;
     margin: 0%;
     padding: 0%;
   }
-  h4{
-    background-color: rgba(139, 72, 191, .3);
+  h4 {
+    background-color: rgba(139, 72, 191, 0.3);
     font-size: 1em;
     padding: 13px 45px 13px 10px;
     width: 100%;
-
   }
-  .textoDif{
+  .textoDif {
     font-weight: 500;
     font-size: 1em;
     line-height: 155%;
     letter-spacing: 0.01em;
-    color: #B3B2B7;
+    color: #b3b2b7;
     text-align: left;
     padding: 25px 25px;
     position: relative;
     right: 50px;
   }
   /* Nota: Empieza el Aside responsive */
-  h3{
-  font-size: 2.44em;
-  padding-bottom: 30%;
+  h3 {
+    font-size: 2.44em;
+    padding-bottom: 30%;
   }
-  .fantom{
+  .fantom {
     display: none;
   }
-  .person{
+  .person {
     justify-content: center;
     margin: 0% 0% 8% 0%;
   }
-  .comentario{
+  .comentario {
     font-size: 1em;
     padding: 0% 35%;
   }
-  .anchocel{
+  .anchocel {
     width: 100vw;
   }
-  .margen{
+  .margen {
     margin: 0% 0% 0% 0%;
   }
-  h6{
-  font-size: 2.44em;
-  width: 100%;
-  padding: 15% 15%;
-  
+  h6 {
+    font-size: 2.44em;
+    width: 100%;
+    padding: 15% 15%;
   }
-  .altocel{
+  .altocel {
     height: 100%;
   }
-  .botoncel{
+  .botoncel {
     position: relative;
     bottom: 36px;
-    
   }
-  .botonBlanco{
-  font-size: .82em;
-  font-weight: 500;
-  height: 44px;
-  width: 135px;
+  .botonBlanco {
+    font-size: 0.82em;
+    font-weight: 500;
+    height: 44px;
+    width: 135px;
   }
   /* Nota: Empieza Footer responsive */
 
-  .footerColum{
+  .footerColum {
     flex-direction: column-reverse;
   }
-  .margenFooter{
+  .margenFooter {
     width: 100vw;
   }
-  .altfoot{
+  .altfoot {
     height: 70vh;
   }
-  .margen2{
+  .margen2 {
     width: 100%;
     margin: 10% 0% 0% 0%;
-
   }
-  
-  .alizq2{
+
+  .alizq2 {
     align-items: center;
   }
 
-  .alto1{
+  .alto1 {
     height: 20%;
   }
 
-  .menuFoot{
+  .menuFoot {
     font-size: 1em;
     margin: 15% 0%;
-  
   }
 
-  .formulario{
+  .formulario {
     height: 44px;
     width: 330px;
     font-size: 0.82em;
   }
-  .buttonGo{
+  .buttonGo {
     height: 44px;
     width: 74px;
     font-size: 0.82em;
     text-decoration: none;
   }
-  .copy{
+  .copy {
     position: relative;
     top: 380px;
     right: 0px;
   }
-  .margenNavs{
+  .margenNavs {
     width: 60%;
     height: 20%;
     margin: 0% 0%;
   }
-  .margenRedes{
+  .margenRedes {
     margin: 10% 0% 0% 0%;
   }
 
-  .districel{
+  .districel {
     justify-content: space-around;
     width: 70vw;
   }
-  .logocel{
+  .logocel {
     justify-content: center;
     align-items: center;
   }
-  .logo{
+  .logo {
     padding: 20% 0% 15% 0%;
   }
 }
